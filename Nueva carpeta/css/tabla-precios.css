@@ -1,0 +1,72 @@
+.container{
+    margin:0 auto;
+    /* width:500px; */
+    /* tambien se puede el width en porcentaje */
+    width: 90%;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+p{
+
+    font-weight: 300;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.columna{
+    background: rgb(228, 228, 228);
+    color:#333;
+    border:1px solid #333;
+    margin:0 auto;
+    padding:10px;
+    /* para la redondes del borde se usa */
+    border-radius:50px;
+    box-shadow: 10px -10px 10px gray;
+    /* se usa para incluir otras medidas como el padding y el margin en el calculo */
+    box-sizing:border-box ;
+    width: 23%;
+
+}
+.precio{
+    font-size: 50px;
+    color: turquoise;
+    
+}
+
+.btn-precio{
+    display:block;
+    background: salmon;
+    text-underline-offset: True;
+    border-radius:50px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.btn-precio:hover{
+    background: green;
+
+}
+@media (max-width:1070px){
+    .columna{
+        width:45%;
+        margin-bottom: 20px;
+
+    }
+}
+
+@media (max-width:600px){
+    .columna{
+        width:100%;
+        margin-bottom: 20px;
+
+    }
+}
+

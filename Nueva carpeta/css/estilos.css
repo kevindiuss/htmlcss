@@ -1,0 +1,54 @@
+h2{
+
+    color:red;
+
+}
+h1{
+
+    font-size: 50px;
+
+}
+#mipaleta1er{
+    
+    color: #40A2D8;
+    background-color:#F0EDCF;
+    /* margin-left: 100px;
+    margin-bottom: 200px; */
+    /* margin:100px 120px */
+    margin: 100px 20px 50px 500px ;
+}
+.laclase{
+
+    color: #0B60B0;
+    background-color:#000000 ;
+    /* el pading es un margen interior */
+    padding: 100px;
+
+}
+.columna{
+    background:#40A2D8;
+    color:beige;
+    padding: 20px;
+    width:25%;
+    margin:10px
+}
+.padre{
+    display: flex;
+}
+.enlinea{
+    display:inline-block;
+    background-color: aqua;
+    margin: 10px;
+}
+button{
+    color: #9EC8B9;
+    background: #1B4242;
+}
+button:hover{
+
+    background:#FF9800 ;
+}
+button:active{
+    background:#FF4B91 ;
+
+}
