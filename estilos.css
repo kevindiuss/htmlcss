@@ -1,0 +1,17 @@
+.contenedor{
+    width: 80%;
+    height:500px;
+    background: #FF5C29;
+    margin: 50PX auto;
+    display: flex;
+}
+.hijo{
+    background: #00b285;
+    width: 200px;
+    height:100px;
+    color: #fff;
+    margin: 30px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+}
